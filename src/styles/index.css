@@ -140,3 +140,11 @@ video {
   width: 100%;
   border-radius: 20px;
 }
+
+footer {
+  color: #fcfeff;
+  font-size: 20px;
+  margin: 100px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
