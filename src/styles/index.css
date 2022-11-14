@@ -51,3 +51,7 @@ video {
   width: 100vw;
   z-index: -1;
 }
+
+.dream {
+  height: 100vh;
+}
