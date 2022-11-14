@@ -1,4 +1,4 @@
-import _5 from "../images/5.jpg"
+import _5 from "../images/gbagbo.jpg"
 function About() {
     return ( 
         <div className="about">
