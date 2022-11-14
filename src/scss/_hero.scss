@@ -1,25 +1,34 @@
-
-.hero{
-    height: 100vh;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    & .hero-text{
-        z-index: 1;
-        font-size: 100px;
-        color: $white;
-        font-family: HansonBold;
-
+.hero {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  & .hero-text {
+    z-index: 1;
+    color: $white;
+    & .welcome {
+        display: inline;
+        padding:10px 20px;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
     }
+    & .hero-title {
+      font-family: HansonBold;
+      font-size: 100px;
+    }
+  }
 }
 
-video{
-    height: 100vh;
-    left: 0;
-    object-fit: cover;
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    z-index: -1;
+video {
+  height: 100vh;
+  left: 0;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: -1;
 }

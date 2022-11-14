@@ -13,6 +13,7 @@ function Hero() {
         <source src={vid} type="video/webm"></source>
       </video>    
       <div className="hero-text">
+        <p className="welcome">WELCOME</p>
         <p className="hero-title">Mawuli's <br /> Art</p>
         </div>   
 </div>

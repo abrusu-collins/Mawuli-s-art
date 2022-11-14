@@ -10,6 +10,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Grotesk;
 }
 
 .hero {
@@ -21,9 +22,20 @@
 }
 .hero .hero-text {
   z-index: 1;
-  font-size: 100px;
   color: #fcfeff;
+}
+.hero .hero-text .welcome {
+  display: inline;
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+.hero .hero-text .hero-title {
   font-family: HansonBold;
+  font-size: 100px;
 }
 
 video {
