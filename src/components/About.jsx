@@ -1,3 +1,4 @@
+import _5 from "../images/5.jpg"
 function About() {
     return ( 
         <div className="about">
@@ -11,7 +12,7 @@ function About() {
                 </p>
 
             </div>
-            <img src="" alt="" />
+            <img src={_5} alt="" />
 
             </div>
 

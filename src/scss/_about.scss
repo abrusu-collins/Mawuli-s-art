@@ -4,4 +4,13 @@
     width: 80%;
     margin: 0 auto 150px auto;
     border-radius: 20px;
+    padding: 30px;
+    & .about-inner{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        & img{
+            width: 70%;
+            border-radius: 20px;
+        }
+    }
 }
