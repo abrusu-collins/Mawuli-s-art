@@ -19,6 +19,11 @@
     & .hero-title {
       font-family: HansonBold;
       font-size: 100px;
+    //   margin-bottom: 100px;
+    }
+    & .hero-description{
+        text-transform: uppercase;
+        // padding-top: 200px;
     }
   }
 }

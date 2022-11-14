@@ -37,6 +37,9 @@
   font-family: HansonBold;
   font-size: 100px;
 }
+.hero .hero-text .hero-description {
+  text-transform: uppercase;
+}
 
 video {
   height: 100vh;

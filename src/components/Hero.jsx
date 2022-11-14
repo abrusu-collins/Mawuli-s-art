@@ -15,6 +15,7 @@ function Hero() {
       <div className="hero-text">
         <p className="welcome">WELCOME</p>
         <p className="hero-title">Mawuli's <br /> Art</p>
+        <p className="hero-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
         </div>   
 </div>
      );
