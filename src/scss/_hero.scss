@@ -1,6 +1,17 @@
 
 .hero{
     height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & .hero-text{
+        z-index: 1;
+        font-size: 100px;
+        color: $white;
+        font-family: HansonBold;
+
+    }
 }
 
 video{
@@ -9,5 +20,6 @@ video{
     object-fit: cover;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;
+    z-index: -1;
 }

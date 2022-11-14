@@ -11,7 +11,10 @@ function Hero() {
         poster="../img/banner.jpg"
       >
         <source src={vid} type="video/webm"></source>
-      </video>       
+      </video>    
+      <div className="hero-text">
+        <p className="hero-title">Mawuli's <br /> Art</p>
+        </div>   
 </div>
      );
 }
