@@ -32,4 +32,13 @@
     .about{
         padding: 50px;
     }
+
+    .dream{
+        .img1{
+            display: none;
+        }
+        & img{
+            width: 90%;
+        }
+    }
 }

@@ -180,4 +180,10 @@ footer {
   .about {
     padding: 50px;
   }
+  .dream .img1 {
+    display: none;
+  }
+  .dream img {
+    width: 90%;
+  }
 }
