@@ -11,7 +11,11 @@ function About() {
                 My goal is to be able to express various real life situations in different forms of arts so that a lot of audience can relate to what art really is whether you are an artistic person or not.
                 </p>
                 <div className="contacts">
-                    
+                <a href="">FACEBOOK</a>
+                <a href="">INSTAGRAM</a>
+                <a href="">WHATSAPP</a>
+                <a href="">E-MAIL</a>
+
                 </div>
             </div>
             <img src={_5} alt="" />
