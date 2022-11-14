@@ -207,8 +207,11 @@ footer {
   .dream {
     padding: 30px;
   }
+  .dream p {
+    text-align: center;
+  }
   .dream .design {
-    text-align: left;
+    text-align: center;
   }
   .dream img {
     margin: 20px 0;
