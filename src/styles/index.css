@@ -110,6 +110,9 @@ video {
   margin: 0 auto 150px auto;
   border-radius: 20px;
   padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .about .about-inner {
   display: grid;
@@ -125,6 +128,6 @@ video {
   margin: 20px 0;
 }
 .about .about-inner img {
-  width: 70%;
+  width: 100%;
   border-radius: 20px;
 }
