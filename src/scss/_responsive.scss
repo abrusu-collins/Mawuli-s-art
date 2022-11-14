@@ -1,0 +1,18 @@
+@media screen and (max-width: 1401px) {
+  .dream,
+  .works .work-images,
+  .about {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1241px) {
+  .about .about-inner .about-text .contacts {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1rem;
+    & a{
+        margin-right: 0;
+        text-align: center;
+    }
+  }
+}
