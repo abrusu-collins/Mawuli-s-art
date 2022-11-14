@@ -90,3 +90,14 @@ video {
   font-size: 120px;
   text-align: center;
 }
+.works .work-images {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
+  margin: 50px auto 150px auto;
+}
+.works .work-images img {
+  width: 100%;
+  border-radius: 20px;
+}
