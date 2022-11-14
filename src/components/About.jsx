@@ -11,10 +11,10 @@ function About() {
                 My goal is to be able to express various real life situations in different forms of arts so that a lot of audience can relate to what art really is whether you are an artistic person or not.
                 </p>
                 <div className="contacts">
-                <a href="">FACEBOOK</a>
-                <a href="">INSTAGRAM</a>
-                <a href="">WHATSAPP</a>
-                <a href="">E-MAIL</a>
+                <a href="https://www.facebook.com/mawuli.gbagbo?_rdc=1&_rdr">FACEBOOK</a>
+                <a href="https://www.instagram.com/mawuligbagbo/">INSTAGRAM</a>
+                <a href="https://twitter.com/MawuliGbagbo">TWITTER</a>
+                <a href="mailto:gbagboprince20@gmail.com">E-MAIL</a>
 
                 </div>
             </div>
