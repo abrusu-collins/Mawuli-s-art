@@ -164,3 +164,19 @@ footer {
     text-align: center;
   }
 }
+@media screen and (max-width: 1101px) {
+  .about .about-inner {
+    grid-template-columns: 1fr;
+  }
+  .about .about-inner img {
+    width: 70%;
+  }
+  .about .about-inner .about-text .contacts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+  }
+  .about {
+    padding: 50px;
+  }
+}
