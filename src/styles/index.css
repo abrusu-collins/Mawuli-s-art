@@ -113,6 +113,7 @@ video {
 .about .about-inner {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  align-items: center;
 }
 .about .about-inner img {
   width: 70%;

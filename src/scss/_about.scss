@@ -8,6 +8,7 @@
     & .about-inner{
         display: grid;
         grid-template-columns: repeat(2,1fr);
+        align-items: center;
         & img{
             width: 70%;
             border-radius: 20px;
