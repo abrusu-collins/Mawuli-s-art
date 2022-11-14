@@ -113,7 +113,15 @@ video {
 .about .about-inner {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
   align-items: center;
+}
+.about .about-inner .about-text .name {
+  font-family: HansonBold;
+  font-size: 50px;
+}
+.about .about-inner .about-text .description {
+  margin: 20px 0;
 }
 .about .about-inner img {
   width: 70%;
