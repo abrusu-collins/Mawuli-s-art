@@ -192,3 +192,11 @@ footer {
     font-size: 70px;
   }
 }
+@media screen and (max-width: 801px) {
+  .works .work-title {
+    font-size: 70px;
+  }
+  .works .work-images {
+    grid-template-columns: 1fr;
+  }
+}
