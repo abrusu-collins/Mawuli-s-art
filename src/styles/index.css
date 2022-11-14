@@ -187,3 +187,8 @@ footer {
     width: 90%;
   }
 }
+@media screen and (max-width: 841px) {
+  .dream p {
+    font-size: 70px;
+  }
+}
