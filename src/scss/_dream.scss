@@ -1,3 +1,28 @@
 .dream{
-    height: 100vh;
+    // height: 100vh;
+    background-color: $blue;
+    width: 80%;
+    margin:0 auto 150px auto;
+    border-radius: 20px;
+    color: $white;
+    font-size: 120px;
+    padding: 50px;
+
+    & p{
+        font-family: HansonBold;
+    }
+    & .design{
+        text-align: right;
+    }
+    & .img{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px auto 0 auto;
+    }
+    & img{
+        width: 70%;
+        border-radius: 20px;
+    }
 }

@@ -53,5 +53,28 @@ video {
 }
 
 .dream {
-  height: 100vh;
+  background-color: #171ed1;
+  width: 80%;
+  margin: 0 auto 150px auto;
+  border-radius: 20px;
+  color: #fcfeff;
+  font-size: 120px;
+  padding: 50px;
+}
+.dream p {
+  font-family: HansonBold;
+}
+.dream .design {
+  text-align: right;
+}
+.dream .img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto 0 auto;
+}
+.dream img {
+  width: 70%;
+  border-radius: 20px;
 }
