@@ -200,3 +200,24 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+@media screen and (max-width: 701px) {
+  .hero .hero-text .hero-title {
+    font-size: 90px;
+  }
+  .dream {
+    padding: 30px;
+  }
+  .dream .design {
+    text-align: left;
+  }
+  .dream img {
+    margin: 20px 0;
+  }
+  .about {
+    padding: 30px;
+    text-align: center;
+  }
+  .about .about-inner img {
+    width: 90%;
+  }
+}

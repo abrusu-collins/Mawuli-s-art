@@ -57,3 +57,30 @@
     }
   }
 }
+@media screen and (max-width: 701px) {
+    .hero{
+        & .hero-text{
+            & .hero-title{
+                font-size: 90px;
+            }
+        }
+    }
+    .dream{
+        padding: 30px;
+        & .design{
+            text-align: left;
+        }
+        & img{
+            margin: 20px 0;
+        }
+    }
+    .about{
+        padding: 30px;
+        text-align: center;
+        & .about-inner {
+           & img{
+            width: 90%;
+            }
+        }
+    }
+}
