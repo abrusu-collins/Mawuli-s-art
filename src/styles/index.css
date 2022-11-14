@@ -247,3 +247,22 @@ footer {
     margin-right: 30px;
   }
 }
+@media screen and (max-width: 431px) {
+  .hero .hero-text .hero-title {
+    font-size: 45px;
+  }
+  .dream p {
+    font-size: 45px;
+  }
+  .works .work-title {
+    font-size: 45px;
+  }
+  .about .about-inner .about-text .name {
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .about .about-inner .about-text .contacts {
+    grid-template-columns: 1fr;
+  }
+}
