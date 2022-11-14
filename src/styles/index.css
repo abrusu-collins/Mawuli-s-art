@@ -127,6 +127,15 @@ video {
 .about .about-inner .about-text .description {
   margin: 20px 0;
 }
+.about .about-inner .about-text .contacts a {
+  display: inline-block;
+  text-decoration: none;
+  color: #171ed1;
+  background-color: #fcfeff;
+  padding: 12px 20px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
 .about .about-inner img {
   width: 100%;
   border-radius: 20px;
