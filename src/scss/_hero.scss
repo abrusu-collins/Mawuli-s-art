@@ -1,0 +1,14 @@
+
+.hero{
+    height: 100vh;
+}
+
+video{
+    height: 100vh;
+    left: 0;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: -1;
+}

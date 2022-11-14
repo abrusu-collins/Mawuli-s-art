@@ -1,5 +1,28 @@
+@font-face {
+  font-family: HansonBold;
+  src: url("../fonts/Hanson-Bold.otf");
+}
+@font-face {
+  font-family: Grotesk;
+  src: url("../fonts/FoundersGroteskText-Regular.otf");
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.hero {
+  height: 100vh;
+}
+
+video {
+  height: 100vh;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: -1;
 }
