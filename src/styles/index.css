@@ -101,3 +101,11 @@ video {
   width: 100%;
   border-radius: 20px;
 }
+
+.about {
+  color: #fcfeff;
+  background-color: #171ed1;
+  width: 80%;
+  margin: 0 auto 150px auto;
+  border-radius: 20px;
+}
