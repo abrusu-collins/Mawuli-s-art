@@ -160,7 +160,7 @@ footer {
     grid-gap: 1rem;
   }
   .about .about-inner .about-text .contacts a {
-    margin-right: 0;
+    margin-right: 0 !important;
     text-align: center;
   }
 }
@@ -258,7 +258,7 @@ footer {
     font-size: 45px;
   }
   .about .about-inner .about-text .name {
-    font-size: 45px;
+    font-size: 40px;
   }
 }
 @media screen and (max-width: 376px) {

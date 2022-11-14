@@ -11,7 +11,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
     & a {
-      margin-right: 0;
+      margin-right: 0 !important;
       text-align: center;
     }
   }
@@ -130,7 +130,7 @@
         font-size: 45px;
     }
     .about .about-inner .about-text .name{
-        font-size: 45px;
+        font-size: 40px;
     }
 }
 @media screen and (max-width:376px) {
