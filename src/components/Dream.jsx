@@ -1,4 +1,6 @@
 import threed from "../images/3d-2.webp"
+import three from "../images/3d.webp"
+
 function Dream() {
     return (
         <div className="dream">
@@ -9,7 +11,9 @@ function Dream() {
             I Design it.
             </p>
             <div className="img">
-            <img src={threed} alt="" />
+            <img className="img1" src={threed} alt="" />
+            <img src={three} alt="" />
+
             </div>
         </div>
       );
