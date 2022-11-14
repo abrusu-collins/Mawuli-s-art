@@ -170,6 +170,7 @@ footer {
   }
   .about .about-inner img {
     width: 70%;
+    margin: auto;
   }
   .about .about-inner .about-text .contacts {
     display: grid;
