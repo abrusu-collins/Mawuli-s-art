@@ -81,3 +81,12 @@ video {
 .dream .img1 {
   margin-right: 20px;
 }
+
+.works {
+  color: #fcfeff;
+}
+.works .work-title {
+  font-family: HansonBold;
+  font-size: 120px;
+  text-align: center;
+}

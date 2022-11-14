@@ -1,0 +1,8 @@
+.works{
+    color: $white;
+    & .work-title{
+        font-family: HansonBold;
+        font-size: 120px;
+        text-align: center;
+    }
+}
