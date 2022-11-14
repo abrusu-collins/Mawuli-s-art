@@ -1,5 +1,5 @@
-import threed from "../images/3d-2.webp"
-import three from "../images/3d.webp"
+import img1 from "../images/3d-2.webp"
+import img2 from "../images/3d.webp"
 
 function Dream() {
     return (
@@ -11,8 +11,8 @@ function Dream() {
             I Design it.
             </p>
             <div className="img">
-            <img className="img1" src={threed} alt="" />
-            <img src={three} alt="" />
+            <img className="img1" src={img1} alt="" />
+            <img src={img2} alt="" />
 
             </div>
         </div>
